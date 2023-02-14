@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name=""description" content="This is a dummy website designed to showcase Thabo Mtetwa's HTML and CSS skills with minor Javascript applications">
+        <meta name"viewport" content=""width=device-wdith, initial-scale="1">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <title>Adopt Page</title>
+        <style>
+          .img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            float:none; margin:0 auto;
+          }
+        </style>
+    </head>
+        <header>
+            <div class="sections">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark abg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Adopt a Friend</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="http://127.0.0.1:3000/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/main.html">Home</a>
+                      <a class="nav-link" href="http://127.0.0.1:3000/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/about-us.html">About Us</a>
+                      <a class="nav-link" href="http://127.0.0.1:3000/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/adopt1.html">Adopt</a>
+                      <a class="nav-link" href="http://127.0.0.1:3000/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/donate.html">Donate</a>
+                      <a class="nav-link" href="http://127.0.0.1:3000/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/contact-us.html">Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+    <body>
+      <div class="container-fluid px-0">
+        <div class="row gx-0 color-block-top"></div>
+        <div class="row gx-0">
+          <div class="col">
+            <img src="/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/Banner4.jpg" class="beach w-100 h-100 ">
+          </div>
+        </div>
+        <div class="row gx-0  color-block-top"></div>
+      </div>
+<div class="text-center bg-success bg-gradient py-4">
+            <h1>Adoptable Dogs</h1>
+            <p>Thank you for considering adopting from the Furry Friends Dog Sanctuary. you will be helping to save a homeless dog. By adopting rather than buying, you will reduce the demand that drives the commercial breeders (puppy mills) of puppies. The Adoption Option: Let’s make it the first option.
+            </p>
+        </div>
+        <body>
+          <div class="container shadow min-vh-100 py-2">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col img-thumbnail m-2" style="border 1px solid;">
+                  <img class="img" id="thumbnail" src="/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/Avery.jpg">
+                  <p class="text-center">Avery</p>                
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col img-thumbnail m-2" style="border 1px solid;">
+                  <img class="img" id="thumbnail1" src="/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/Clyde.jpeg">
+                  <p class="text-center">Clyde</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col img-thumbnail m-2" style="border 1px solid;">
+                  <img class="img" id="thumbnail2" src="/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/Buddy.jpeg.webp">
+                  <p class="text-center">Buddy</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col img-thumbnail m-2" style="border 1px solid;">
+                  <img class="img" id="thumbnail3" src="/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/Gus.jpg">
+                  <p class="text-center">Gus</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col img-thumbnail m-2" style="border 1px solid;">
+                  <img class="img" id="thumbnail4" src="/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/Moe.jpg">
+                  <p class="text-center">Moe</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col img-thumbnail m-2" style="border 1px solid;">
+                  <img class="img" id="thumbnail5" src="/Users/thabomtetwa/Desktop/Practice/adopt-a-friend/Babalu.jpg">
+                  <p class="text-center">Babalu</p>
+                </div>                
+              </div>
+            </div>
+        </div>
+        <script>
+          [ thumbnail, thumbnail1, thumbnail2, thumbnail3, thumbnail4, thumbnail5, thumbnail6 ].forEach(function(profile) {
+          profile.addEventListener("click", function() {
+          alert("Dog profiles coming soon!");
+            });
+          });
+        </script>
+    </body>
+          <footer class="bg-dark py-1">
+            <p class="display mb-3 text-white-50">Adopt a Friend  &copy; Copyright by The Furry Friends Dog Sanctuary. All rights reserved.</p>
+        </footer>
